@@ -10,5 +10,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./"),
     },
   },
-  base: "/pmsa.astro",
+  base: "/pmsa-astro",
 })
