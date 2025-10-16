@@ -154,7 +154,7 @@ export default function Research() {
           <div className="grid md:grid-cols-2 gap-6">
             {keyProjects.map((project, index) => (
               <Card key={index} className="bg-gray-800/30 border-gray-700 hover:bg-gray-800/50 transition-all duration-300">
-                <CardContent className="p-6">
+                <CardContent className="p-6 pt-4">
                   <div className="flex justify-between items-start mb-3">
                     <h4 className="text-lg font-semibold text-white">{project.title}</h4>
                     <Badge 

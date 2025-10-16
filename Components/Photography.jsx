@@ -90,7 +90,7 @@ export default function Photography() {
             viewport={{ once: true }}
           >
             <Card className="bg-gray-800/50 border-gray-700">
-              <CardContent className="p-6">
+              <CardContent className="p-6 pt-6 ">
                 <div className="flex items-center mb-4">
                   <Camera className="w-8 h-8 text-blue-400 mr-3" />
                   <h3 className="text-2xl font-bold text-white">Our Setup</h3>

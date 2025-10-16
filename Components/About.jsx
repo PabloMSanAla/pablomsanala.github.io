@@ -113,7 +113,7 @@ export default function About() {
             viewport={{ once: true }}>
 
               <Card className="bg-gray-800/50 border-gray-700 hover:border-blue-500/50 transition-all duration-300 h-full">
-                <CardContent className="p-6 text-center">
+                <CardContent className="p-6 pt-3 text-center flex flex-col justify-center items-center h-full">
                   <div className="mb-4 flex justify-center">
                     {achievement.icon}
                   </div>
