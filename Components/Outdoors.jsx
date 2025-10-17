@@ -61,7 +61,7 @@ export default function Outdoors() {
               viewport={{ once: true }}
             >
               <Card className="bg-gray-800/50 border-gray-700 hover:border-green-500/50 transition-all duration-300 h-full group">
-                <CardContent className="p-6">
+                <CardContent className="p-6 pt-4">
                   <div className="flex items-start space-x-4">
                     <div className="group-hover:scale-110 transition-transform duration-300">
                       {activity.icon}
@@ -106,8 +106,8 @@ export default function Outdoors() {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-green-500/20 to-blue-500/20 rounded-lg blur-xl"></div>
             <img
-              src="https://images.unsplash.com/photo-1551516913-fbb3b8a78efb?q=80&w=1000"
-              alt="Mountain landscape under starry sky"
+              src="https://raw.githubusercontent.com/PabloMSanAla/pablomsanala.github.io/refs/heads/main/images/Auroras_web.jpg"
+              alt="Auroras Boreales over snowy landscape"
               className="relative rounded-lg w-full h-80 object-cover border border-gray-700"
             />
           </div>

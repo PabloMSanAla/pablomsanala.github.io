@@ -39,16 +39,16 @@ export default function Photography() {
       technical: "Canon R6 with 70mm f4"
     },
     {
-      src: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?q=80&w=1000",
-      title: "Saturn",
-      description: "High resolution planetary imaging",
-      technical: "Barlow 3x, RGB filters, lucky imaging"
+      src: "https://raw.githubusercontent.com/PabloMSanAla/pablomsanala.github.io/refs/heads/main/images/LBN249_web.jpg",
+      title: "LBN249 nebula",
+      description: "with Ha,Hb,OIII,SII narrowband imaging",
+      technical: "80mm APO, ZWO ASI183MM-Pro"
     },
     {
-      src: "https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?q=80&w=1000",
-      title: "Leo Triplet",
-      description: "Galaxy group in Leo constellation", 
-      technical: "80mm APO, 20h exposure, LRGB"
+      src: "https://raw.githubusercontent.com/PabloMSanAla/pablomsanala.github.io/refs/heads/main/images/StarTrail_Volcan_web.jpeg",
+      title: "Star Trails over Tajogaite Volcano",
+      description: "Timelapse from tenerife",
+      technical: "Canon R6 with 35mm f2.8"
     }
   ];
 
