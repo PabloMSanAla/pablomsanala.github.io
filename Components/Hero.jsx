@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Mail, Linkedin } from "lucide-react";
 import { Button } from "./ui/button.jsx";
 
 export default function Hero() {
@@ -80,13 +80,13 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.9 }}
           className="flex justify-center space-x-6">
 
-          <a href="https://github.com/TheStellarStreams" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/PabloMSanAla" target="_blank" rel="noopener noreferrer"
           className="text-gray-400 hover:text-blue-400 transition-colors duration-200">
             <Github className="w-6 h-6" />
           </a>
-          <a href="https://twitter.com/PabloMSanAla" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.linkedin.com/in/pablo-m-sanchez-alarcon-5534239a/" target="_blank" rel="noopener noreferrer"
           className="text-gray-400 hover:text-blue-400 transition-colors duration-200">
-            <Twitter className="w-6 h-6" />
+          <Linkedin className="w-6 h-6" />
           </a>
           <a href="mailto:pmsa.astro@gmail.com"
           className="text-gray-400 hover:text-blue-400 transition-colors duration-200">

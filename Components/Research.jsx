@@ -67,6 +67,7 @@ export default function Research() {
   ];
 
   const meetings = [
+    { name: "IAU403 - The Hidden Beauty of the Galactic Outskirts", location: "Cordoba, Spain", date: "Oct 2025", type: "Contributed e-Poster" },
     { name: "Galaxy Memoirs", location: "Búzois, Brazil", date: "Aug 2025", type: "Contributed talk" },
     { name: "Euclid from Q1 to DR1", location: "Tenerife, Spain", date: "Jan 2025", type: "Contributed talk" },
     { name: "LSST@Europe 6", location: "La Palma, Spain", date: "Sep 2024", type: "LOC Member & Talk" },

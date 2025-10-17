@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Mail, MapPin, Github, Twitter } from "lucide-react";
+import { Mail, MapPin, Github, Linkedin, Link } from "lucide-react";
 import { Card, CardContent } from "./ui/card.jsx";
 import { Button } from "./ui/button.jsx";
 
@@ -26,12 +26,12 @@ export default function Contact() {
       label: "GitHub",
       href: "https://github.com/TheStellarStreams",
       color: "hover:text-gray-300"
-    },
+    }, 
     {
-      icon: <Twitter className="w-6 h-6" />,
-      label: "Twitter", 
-      href: "https://twitter.com/PabloMSanAla",
-      color: "hover:text-blue-400"
+      icon: <Linkedin className="w-6 h-6" />,
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/pablo-m-sanchez-alarcon-5534239a/",
+      color: "hover:text-gray-300"
     }
   ];
 
