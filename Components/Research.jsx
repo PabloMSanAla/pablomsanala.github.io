@@ -33,24 +33,24 @@ export default function Research() {
       description: "Led the analysis of the disc galaxy extension of the Spitzer Survey, presenting a complete sample of 3,239 nearby galaxies with top-quality deep infrared images.",
       status: "Published",
       impact: "Major astronomical catalog",
-      arxivLink: "https://arxiv.org/abs/2024.xxxxx",
-      journalLink: "https://doi.org/10.3847/1538-4365/xxxxx"
+      arxivLink: "https://arxiv.org/pdf/2503.09680",
+      journalLink: "https://www.aanda.org/articles/aa/abs/2025/05/aa51641-24/aa51641-24.html"
     },
     {
       title: "FABADA Algorithm",
       description: "Developed a fully functional noise reduction method specifically for 1D and 2D astronomical data using Fully Adaptive Bayesian Algorithm for Data Analysis.",
       status: "Published",
       impact: "Open source tool",
-      arxivLink: "https://arxiv.org/abs/2021.xxxxx",
-      journalLink: "https://doi.org/10.1093/mnras/xxxxx"
+      arxivLink: "https://arxiv.org/pdf/2201.05145",
+      journalLink: "https://academic.oup.com/rasti/article/2/1/129/7079157?login=false"
     },
     {
       title: "Galaxy Disc Breaks in Isolated Galaxies",
       description: "Analysis of surface brightness profile breaks in AMIGA galaxies, finding statistically significant differences between isolated and cluster environments.",
       status: "Published",
       impact: "Environmental effects",
-      arxivLink: "https://arxiv.org/abs/2023.xxxxx",
-      journalLink: "https://doi.org/10.1051/0004-6361/xxxxx"
+      arxivLink: "https://arxiv.org/pdf/2307.02527",
+      journalLink: "https://www.aanda.org/articles/aa/full_html/2023/09/aa46719-23/aa46719-23.html"
     },
     {
       title: "Euclid Disc Break Evolution",
@@ -208,7 +208,7 @@ export default function Research() {
           <div className="grid md:grid-cols-2 gap-6">
             {outreach.map((item, index) => (
               <Card key={index} className="bg-gray-800/30 border-gray-700 hover:bg-gray-800/50 transition-all duration-300">
-                <CardContent className="p-6">
+                <CardContent className="p-6 pt-4">
                   <h4 className="text-lg font-semibold text-white mb-3">{item.title}</h4>
                   <p className="text-gray-300 mb-4">{item.description}</p>
                   <Button asChild

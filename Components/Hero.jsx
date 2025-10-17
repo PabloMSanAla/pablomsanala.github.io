@@ -14,7 +14,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1502134249126-9f3755a50d78?q=80&w=2070')`,
+          backgroundImage: `url('./images/RhoOphiuchi_web.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
