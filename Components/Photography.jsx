@@ -15,28 +15,28 @@ export default function Photography() {
 
   const galleryImages = [
     {
-      src: "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?q=80&w=1000",
-      title: "Andromeda Galaxy (M31)",
-      description: "50-hour mosaic in H-alpha and OIII",
-      technical: "80mm APO, 50h exposure, Narrowband"
+      src: "./images/cirrus_rgb_web.jpeg",
+      title: "Galactic Cirrus",
+      description: "2-hour each in RGB",
+      technical: "Isaac Newton Telescope, ORM"
     },
     {
-      src: "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?q=80&w=1000", 
-      title: "Orion Nebula (M42)",
-      description: "LRGB composite with stellar cores",
-      technical: "80mm APO, 15h exposure, LRGB filters"
+      src: "./images/ORM_Residence_MW_web.jpeg", 
+      title: "Center of the Milky Way with my telescope",
+      description: "10-s image",
+      technical: "Canon R6 with 24mm f1.8"
     },
     {
-      src: "https://images.unsplash.com/photo-1464802686167-b939a6910659?q=80&w=1000",
-      title: "Milky Way Core",
-      description: "Summer galactic center from Tenerife",
-      technical: "85mm lens, tracked panorama"
+      src: "./images/NGC7331_web.jpg",
+      title: "NGC7331 and Stephen's Quintet",
+      description: "3h in LRGB with TSS equipment",
+      technical: "80mm APO, ZWO ASI183MM-Pro"
     },
     {
-      src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1000",
-      title: "Horsehead Nebula", 
-      description: "H-alpha and OIII narrowband composite",
-      technical: "80mm APO, 25h exposure, Ha+OIII"
+      src: "./images/ORM_Eclipse24_web.jpeg",
+      title: "Eclipse in GTC",
+      description: "One shot during the 2024 solar eclipse",
+      technical: "Canon R6 with 70mm f4"
     },
     {
       src: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?q=80&w=1000",

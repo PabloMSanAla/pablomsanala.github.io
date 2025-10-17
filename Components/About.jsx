@@ -58,9 +58,9 @@ export default function About() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-lg blur-xl"></div>
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68d086fa8f0b1b617f58bdd9/bc6681f1b_cv_photo.jpg"
+                src="./images/cv_photo.jpeg"
                 alt="Pablo M. Sánchez Alarcón"
-                className="relative rounded-lg w-full h-96 object-cover border border-gray-700" />
+                className="relative rounded-lg w-full h-97 object-cover border border-gray-700" />
 
             </div>
           </motion.div>
