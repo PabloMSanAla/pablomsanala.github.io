@@ -58,7 +58,7 @@ export default function About() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-lg blur-xl"></div>
               <img
-                src="./images/cv_photo.jpeg"
+                src="https://raw.githubusercontent.com/PabloMSanAla/pablomsanala.github.io/refs/heads/main/images/cv_photo.jpeg"
                 alt="Pablo M. Sánchez Alarcón"
                 className="relative rounded-lg w-full h-97 object-cover border border-gray-700" />
 

@@ -15,25 +15,25 @@ export default function Photography() {
 
   const galleryImages = [
     {
-      src: "./images/cirrus_rgb_web.jpeg",
+      src: "https://raw.githubusercontent.com/PabloMSanAla/pablomsanala.github.io/refs/heads/main/images/cirrus_rgb_web.jpeg",
       title: "Galactic Cirrus",
       description: "2-hour each in RGB",
       technical: "Isaac Newton Telescope, ORM"
     },
     {
-      src: "./images/ORM_Residence_MW_web.jpeg", 
+      src: "https://raw.githubusercontent.com/PabloMSanAla/pablomsanala.github.io/refs/heads/main/images/ORM_Residence_MW_web.jpeg", 
       title: "Center of the Milky Way with my telescope",
       description: "10-s image",
       technical: "Canon R6 with 24mm f1.8"
     },
     {
-      src: "./images/NGC7331_web.jpg",
+      src: "https://raw.githubusercontent.com/PabloMSanAla/pablomsanala.github.io/refs/heads/main/images/NGC7331_web.jpg",
       title: "NGC7331 and Stephen's Quintet",
       description: "3h in LRGB with TSS equipment",
       technical: "80mm APO, ZWO ASI183MM-Pro"
     },
     {
-      src: "./images/ORM_Eclipse24_web.jpeg",
+      src: "https://raw.githubusercontent.com/PabloMSanAla/pablomsanala.github.io/refs/heads/main/images/ORM_Eclipse24_web.jpeg",
       title: "Eclipse in GTC",
       description: "One shot during the 2024 solar eclipse",
       technical: "Canon R6 with 70mm f4"

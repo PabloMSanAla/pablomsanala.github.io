@@ -14,7 +14,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black"
         style={{
-          backgroundImage: `url('./images/RhoOphiuchi_web.jpg')`,
+          backgroundImage: `url('https://raw.githubusercontent.com/PabloMSanAla/pablomsanala.github.io/refs/heads/main/images/RhoOphiuchi_web.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
