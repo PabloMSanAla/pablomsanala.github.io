@@ -12,7 +12,7 @@ export default function CourseCard({ course, index }) {
       transition={{ duration: 0.5, delay: index * 0.1 }}
     >
       <Card className="bg-gray-800/50 border-gray-700 hover:border-blue-500/50 transition-all duration-300 h-full">
-        <CardContent className="p-6">
+        <CardContent className="p-6 pt-4">
           <h3 className="text-xl font-bold text-white mb-2">{course.title}</h3>
           <div className="flex items-center text-gray-400 text-sm mb-2">
             <Building className="w-4 h-4 mr-2 text-purple-400" />

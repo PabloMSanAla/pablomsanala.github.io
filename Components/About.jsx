@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Telescope, Award, Users, Presentation } from "lucide-react";
 import { Card, CardContent } from "./ui/card.jsx";
+import { Button } from "./ui/button.jsx";
+
 
 export default function About() {
   const achievements = [
@@ -101,6 +103,7 @@ export default function About() {
               </p>
             </div>
           </motion.div>
+          
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -123,6 +126,14 @@ export default function About() {
               </Card>
             </motion.div>
           )}
+        </div>
+        <div className="text-center mt-12">
+          <Button 
+            onClick={() => window.open('https://raw.githubusercontent.com/PabloMSanAla/pablomsanala.github.io/refs/heads/main/images/CV_PabloSanchezAlarcon.pdf', '_blank')}
+            className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-3 text-lg"
+          >
+            Download CV
+          </Button>
         </div>
       </div>
     </section>);

@@ -24,7 +24,7 @@ export default function Contact() {
     {
       icon: <Github className="w-6 h-6" />,
       label: "GitHub",
-      href: "https://github.com/TheStellarStreams",
+      href: "https://github.com/PabloMSanAla",
       color: "hover:text-gray-300"
     }, 
     {
