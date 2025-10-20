@@ -128,13 +128,14 @@ export default function About() {
           )}
         </div>
         <div className="text-center mt-12 -mb-24">
+        <a href="https://raw.githubusercontent.com/PabloMSanAla/pablomsanala.github.io/refs/heads/main/images/CV_PabloSanchezAlarcon.pdf" target="_blank" rel="noopener noreferrer">
           <Button 
-            onClick={() => window.open('https://raw.githubusercontent.com/PabloMSanAla/pablomsanala.github.io/refs/heads/main/images/CV_PabloSanchezAlarcon.pdf', '_blank')}
             className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-3 text-lg"
           >
-            Download CV
+            View CV
           </Button>
-        </div>
+        </a>
+      </div>
       </div>
     </section>);
 
