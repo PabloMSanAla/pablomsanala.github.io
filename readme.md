@@ -22,6 +22,20 @@
 ```bash
     npm run dev
 ```
+## Local setup
+
+1. Install node
+```bash
+    brew install node
+```
+2. In the local repo
+```bash
+    npm install
+```
+3. Run the website locally
+```bash
+npm run dev
+```
 
 ## Deployment Instructions
 
