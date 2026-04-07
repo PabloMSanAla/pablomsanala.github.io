@@ -7,6 +7,7 @@ import { Button } from "./ui/button.jsx";
 
 export default function About() {
   const [showCV, setShowCV] = useState(false);
+  const cvUrl = `${import.meta.env.BASE_URL}CV_PabloSanchezAlarcon.pdf`;
   const achievements = [
   {
     icon: <Award className="w-8 h-8 text-blue-400" />,
@@ -144,23 +145,25 @@ export default function About() {
               className="mt-6 rounded-lg overflow-hidden border border-gray-700 bg-gray-900/50"
             >
               <object
-                data="/images/CV_PabloSanchezAlarcon.pdf"
+                data={cvUrl}
                 type="application/pdf"
                 width="100%"
                 height="900"
                 className="w-full"
               >
-                <p className="text-gray-300 p-4 text-center">
-                  Your browser cannot display the PDF.{" "}
-                  <a
-                    href="/images/CV_PabloSanchezAlarcon.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-400 underline hover:text-blue-300"
-                  >
-                    Open it here
-                  </a>.
-                </p>
+                <iframe src={cvUrl} width="100%" height="800px" style={{ border: "none" }}>
+                  <p className="text-gray-300 p-4 text-center">
+                    Your browser cannot display the PDF.{" "}
+                    <a
+                      href={cvUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-400 underline hover:text-blue-300"
+                    >
+                      Open it here
+                    </a>.
+                  </p>
+                </iframe>
               </object>
             </motion.div>
           )}
@@ -169,3 +172,4 @@ export default function About() {
     </section>
   );
 }
+
