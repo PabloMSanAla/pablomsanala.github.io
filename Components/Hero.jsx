@@ -47,7 +47,7 @@ export default function Hero() {
           <p className="text-xl md:text-2xl text-gray-300 mb-4">
             Astrophysicist • Observations • Data Scientist • Galaxy Evolution
           </p>
-          <p className="text-lg text-gray-400 max-w-2xl mx-auto">Ph.D. in Astrophysics from the Instituto de Astrofísica de Canarias, specialising in observational astronomy, low surface brightness universe, and advanced data analysis of astronomical images.
+          <p className="text-lg text-gray-400 max-w-2xl mx-auto">NASA Postdoctoral Program Fellow at NASA Ames Research Center working on decomposing galactic cirrus in images from the Roman Space Telescope using Machine Learning. Ph.D. in Astrophysics specialised in observational astronomy, low surface brightness universe, and advanced data analysis.
 
 
           </p>

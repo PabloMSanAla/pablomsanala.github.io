@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Telescope, Award, Users, Presentation } from "lucide-react";
 import { Card, CardContent } from "./ui/card.jsx";
@@ -6,6 +6,7 @@ import { Button } from "./ui/button.jsx";
 
 
 export default function About() {
+  const [showCV, setShowCV] = useState(false);
   const achievements = [
   {
     icon: <Award className="w-8 h-8 text-blue-400" />,
@@ -127,16 +128,44 @@ export default function About() {
             </motion.div>
           )}
         </div>
-        <div className="text-center mt-12 -mb-24">
-        <a href="https://raw.githubusercontent.com/PabloMSanAla/pablomsanala.github.io/refs/heads/main/images/CV_PabloSanchezAlarcon.pdf" target="_blank" rel="noopener noreferrer">
-          <Button 
-            className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-3 text-lg"
+       <div className="mt-12 text-center">
+          <Button
+            onClick={() => setShowCV(!showCV)}
+            className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-6 py-3"
           >
-            View CV
+            {showCV ? "Hide CV" : "View CV"}
           </Button>
-        </a>
-      </div>
-      </div>
-    </section>);
 
+          {showCV && (
+            <motion.div
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3 }}
+              className="mt-6 rounded-lg overflow-hidden border border-gray-700 bg-gray-900/50"
+            >
+              <object
+                data="/images/CV_PabloSanchezAlarcon.pdf"
+                type="application/pdf"
+                width="100%"
+                height="900"
+                className="w-full"
+              >
+                <p className="text-gray-300 p-4 text-center">
+                  Your browser cannot display the PDF.{" "}
+                  <a
+                    href="/images/CV_PabloSanchezAlarcon.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 underline hover:text-blue-300"
+                  >
+                    Open it here
+                  </a>.
+                </p>
+              </object>
+            </motion.div>
+          )}
+        </div>
+      </div>
+    </section>
+  );
 }
